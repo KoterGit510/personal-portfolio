@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dakota Reid — Software Developer</title>
+  <meta name="description" content="Dakota Reid — Software Developer. Portfolio, résumé, and interests." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="shell">
+    <aside class="rail">
+      <div class="rail-mark">
+        <span class="rail-mark-glyph">DR</span>
+      </div>
+
+      <nav class="tabs" aria-label="Sections">
+        <button class="tab tab-active" data-section="index" aria-current="page">
+          <span class="tab-num">00</span>
+          <span class="tab-label">Index</span>
+        </button>
+        <button class="tab" data-section="work">
+          <span class="tab-num">01</span>
+          <span class="tab-label">Work</span>
+        </button>
+        <button class="tab" data-section="resume">
+          <span class="tab-num">02</span>
+          <span class="tab-label">Résumé</span>
+        </button>
+        <button class="tab" data-section="interests">
+          <span class="tab-num">03</span>
+          <span class="tab-label">Interests</span>
+        </button>
+      </nav>
+
+      <div class="rail-foot">
+        <span>Kansas City, MO</span>
+      </div>
+    </aside>
+
+    <main class="stage">
+      <header class="stage-head">
+        <span class="stage-file" id="stage-file">FILE — 00 / INDEX</span>
+        <span class="stage-name">Dakota Reid</span>
+      </header>
+
+      <!-- Index -->
+      <div class="card" data-pane="index">
+        <section class="pane">
+          <p class="eyebrow">Welcome</p>
+          <h1 class="headline">Dakota Reid</h1>
+          <p class="role">Software Developer</p>
+          <p class="lede">
+            Software engineer building automation, cloud infrastructure, and internal tooling.
+            Passionate about AI research, LLM design, and creating efficient, scalable solutions.
+          </p>
+
+          <div class="linkrow">
+            <a href="https://github.com/dakotareid" target="_blank" rel="noreferrer" class="pill">GitHub ↗</a>
+            <a href="https://linkedin.com/in/dakotareid" target="_blank" rel="noreferrer" class="pill">LinkedIn ↗</a>
+            <a href="mailto:dakotareid510@gmail.com" class="pill pill-brass">Email me ↗</a>
+          </div>
+
+          <div class="hr"></div>
+
+          <p class="hint">Use the Tabs located on the left, to navigate the website.</p>
+        </section>
+      </div>
+
+      <!-- Work-->
+      <div class="card" data-pane="work" hidden>
+        <section class="pane">
+          <p class="eyebrow">Selected work</p>
+          <h2 class="section-title">Projects</h2>
+
+          <ul class="project-list">
+            <li class="project-row">
+              <span class="project-id">01</span>
+              <div class="project-body">
+                <div class="project-top">
+                  <h3 class="project-title">PLACEHOLDER</h3>
+                  <span class="project-year">2026</span>
+                </div>
+                <p class="project-blurb">Lorum Ipsom.</p>
+                <div class="tagrow">
+                  <span class="tag">ItemA. ItemB</span>
+                </div>
+                <a href="https://github.com/dakotareid/project-one" target="_blank" rel="noreferrer" class="project-link">
+                  View project ↗
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Resume-->
+      <div class="card" data-pane="resume" hidden>
+        <section class="pane">
+          <p class="eyebrow">Background</p>
+          <h2 class="section-title">Résumé</h2>
+          <p class="lede small">
+            Software engineer with experience building automation, cloud infrastructure, and internal
+            tooling using Terraform, PowerShell, Azure DevOps, SQL, Python, and Java. Strong background
+            in full software development lifecycle, proof-of-concept development, and collaborative
+            Agile environments. Passionate about AI research, LLM design, and creating efficient,
+            scalable solutions.
+          </p>
+
+          <a href="assets/DakotaReid.pdf" download class="pill pill-brass" style="margin-top: 0.5rem;">
+            Download PDF ↓
+          </a>
+
+          <div class="hr"></div>
+
+          <h3 class="subhead">Experience</h3>
+          <div class="timeline">
+            <div class="timeline-row">
+              <span class="timeline-period">08/2023 - 08/2026</span>
+              <div class="timeline-body">
+                <p class="timeline-role">Associate / Software Engineer <span class="timeline-org">— WellSky</span></p>
+                <ul class="timeline-points">
+                  <li>Utilized Software Development Tools: GitHub, Jira, Confluence</li>
+                  <li>Worked as teams to deliver sprint commitments to consumers</li>
+                  <li>Coded in a multitude of languages according to my product</li>
+                  <li>Automate development processes using my technical skills</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-row">
+              <span class="timeline-period">2022 — 2024</span>
+              <div class="timeline-body">
+                <p class="timeline-role">Previous Job Title <span class="timeline-org">— Previous Company</span></p>
+                <ul class="timeline-points">
+                  <li>What you did there.</li>
+                  <li>Another line if useful.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="subhead">Education</h3>
+          <div class="timeline">
+            <div class="timeline-row">
+              <span class="timeline-period">2019 — 2023</span>
+              <div class="timeline-body">
+                <p class="timeline-role">B.S. in Computer Science <span class="timeline-org">— University of Central Missouri</span></p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="subhead">Skills</h3>
+          <div class="tagrow">
+            <span class="tag tag-teal">JavaScript</span>
+            <span class="tag tag-teal">React</span>
+            <span class="tag tag-teal">Python</span>
+            <span class="tag tag-teal">SQL</span>
+            <span class="tag tag-teal">Git</span>
+            <span class="tag tag-teal">Docker</span>
+          </div>
+        </section>
+      </div>
+
+      <!-- Interests -->
+      <div class="card" data-pane="interests" hidden>
+        <section class="pane">
+          <p class="eyebrow">Off the clock</p>
+          <h2 class="section-title">Things I enjoy</h2>
+
+          <div class="interest-grid">
+            <div class="interest-card">
+              <span class="interest-num">01</span>
+              <h3 class="interest-title">Coding</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-num">02</span>
+              <h3 class="interest-title">Traveling</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-num">03</span>
+              <h3 class="interest-title">Sketching</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-num">04</span>
+              <h3 class="interest-title">Football</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
