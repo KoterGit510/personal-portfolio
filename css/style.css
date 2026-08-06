@@ -237,6 +237,16 @@ button:focus-visible {
   color: var(--paper-dim);
 }
 
+.lede code,
+.hint code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--slate);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  color: var(--teal);
+}
+
 .linkrow {
   display: flex;
   flex-wrap: wrap;
