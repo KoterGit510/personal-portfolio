@@ -27,12 +27,7 @@ function activateSection(key) {
     pane.hidden = pane.dataset.pane !== key;
   });
 
-  // Update header label
-  const section = SECTIONS[key];
-  if (section && stageFile) {
-    stageFile.textContent = `FILE — ${section.num} / ${section.label.toUpperCase()}`;
-  }
-
+ 
   // Restart the fade-in animation on the newly shown card
   const activeCard = document.querySelector(`[data-pane="${key}"]`);
   if (activeCard) {
