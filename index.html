@@ -28,9 +28,9 @@
           <span class="tab-num">00</span>
           <span class="tab-label">Index</span>
         </button>
-        <button class="tab" data-section="work">
+        <button class="tab" data-section="projects">
           <span class="tab-num">01</span>
-          <span class="tab-label">Work</span>
+          <span class="tab-label">Projects</span>
         </button>
         <button class="tab" data-section="resume">
           <span class="tab-num">02</span>
@@ -49,7 +49,7 @@
 
     <main class="stage">
       <header class="stage-head">
-        <span class="stage-file" id="stage-file">INDEX</span>
+        <span class="stage-file" id="stage-file">FILE — 00 / INDEX</span>
         <span class="stage-name">Dakota Reid</span>
       </header>
 
@@ -89,8 +89,8 @@
         </section>
       </div>
 
-      <!-- Work pane -->
-      <div class="card" data-pane="work" hidden>
+      <!-- Projects pane -->
+      <div class="card" data-pane="projects" hidden>
         <section class="pane">
           <p class="eyebrow">Selected work</p>
           <h2 class="section-title">My Projects</h2>
@@ -247,26 +247,67 @@
       <!-- Interests pane -->
       <div class="card" data-pane="interests" hidden>
         <section class="pane">
-          <h2 class="section-title">Things I enjoy</h2>
+          <h2 class="section-title">Interests</h2>
 
-          <div class="interest-grid">
-            <div class="interest-card">
+          <!--
+            Each row below is one interest. To add a photo, replace the
+            placeholder <div class="interest-media"> ... </div> with:
+              <img class="interest-media" src="assets/interests/coding.jpg" alt="Coding">
+            Drop the image file in the assets/interests/ folder first.
+          -->
+          <ul class="interest-list">
+            <li class="interest-row">
               <span class="interest-num">01</span>
-              <h3 class="interest-title">Coding</h3>
-            </div>
-            <div class="interest-card">
+              <div class="interest-media" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4">
+                  <rect x="3" y="4" width="18" height="14" rx="1.5"/><path d="M8 10l-2.5 2 2.5 2M16 10l2.5 2-2.5 2M13.5 8l-3 8"/>
+                </svg>
+              </div>
+              <div class="interest-body">
+                <h3 class="interest-title">Coding</h3>
+                <p class="interest-note">Add a sentence or two here about what you enjoy building or learning.</p>
+              </div>
+            </li>
+
+            <li class="interest-row">
               <span class="interest-num">02</span>
-              <h3 class="interest-title">Traveling</h3>
-            </div>
-            <div class="interest-card">
+              <div class="interest-media" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4">
+                  <path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/>
+                </svg>
+              </div>
+              <div class="interest-body">
+                <h3 class="interest-title">Traveling</h3>
+                <p class="interest-note">Add a sentence or two about your favorite trips or where you'd like to go next.</p>
+              </div>
+            </li>
+
+            <li class="interest-row">
               <span class="interest-num">03</span>
-              <h3 class="interest-title">Languages</h3>
-            </div>
-            <div class="interest-card">
+              <div class="interest-media" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4">
+                  <path d="M5 8h9M5 12h5M9 8v9M14 12c0 4 2 6 2 6M14 12c0-2.5 1.5-4 4-4M18 8v10"/>
+                </svg>
+              </div>
+              <div class="interest-body">
+                <h3 class="interest-title">Languages</h3>
+                <p class="interest-note">Add a sentence or two about which languages you're learning and why.</p>
+              </div>
+            </li>
+
+            <li class="interest-row">
               <span class="interest-num">04</span>
-              <h3 class="interest-title">Football</h3>
-            </div>
-          </div>
+              <div class="interest-media" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4">
+                  <circle cx="12" cy="12" r="9"/><path d="M12 7l2.6 2-1 3.1h-3.2l-1-3.1zM12 3v4M4.2 9l3.6 1.1M4.2 15l3.6-1.1M19.8 9l-3.6 1.1M19.8 15l-3.6-1.1M12 21v-4"/>
+                </svg>
+              </div>
+              <div class="interest-body">
+                <h3 class="interest-title">Football</h3>
+                <p class="interest-note">Add a sentence or two about your favorite team or how you got into it.</p>
+              </div>
+            </li>
+          </ul>
         </section>
       </div>
 
